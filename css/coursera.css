@@ -1,0 +1,41 @@
+body {
+
+font-size: 16px;
+}
+}
+
+
+/**************** NavBar Header****************/
+
+
+
+#header-nav{
+  border-radius: 0;
+  border: 0;
+  background-color:grey;
+  height: 200px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: navy;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid navy;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
