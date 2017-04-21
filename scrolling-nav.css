@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css?family=Amarante');
+
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 100px;
+color:black;
+}
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
+
+#header-container{
+top:-70px;
+}
+#contact{
+background:url(nuts5.jpg); 
+width:100%; 
+margin:0px; 
+height:500px;
+
+}
+
+#kiss{
+padding-left:100px;
+}
+#services{
+background-image:url(wood2.jpg);
+}
+#partners{
+background-image:url(wood3.jpg);
+width:100%; 
+height: 840px;
+}
+.navbar-header .icon-bar {
+  background: rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+    font-family: 'Amarante';
+    font-size: 30px; 
+}
+
+#aboutp {
+padding-left:100px;
+padding-right:100px;
+font-size:17px;
+}
+
+#header #header-container #navbar #menu a:hover 
+{
+   text-decoration: none;
+   color:black;
+background-color:transparent;
+
+}
+
+#harita{
+width:100%; 
+height:480px;
+}
+.link:hover{
+   text-decoration: none;
+   color:black;
+background-color:transparent;
+}
+a{
+color:black
+}
+
+
+#brand{
+margin-top:-10px;
+width:150px;
+height:225px;
+}
+
+#brandson{
+width:100px;
+height:150px;
+margin-left:125px;
+}
+
+.socialm:link{
+color:#337ab7;
+}
+
+
+#menu{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 30px
+}
+#menu > li{
+margin-left:5px;
+}
+#baslik1:not(.icerik), #distribution, #about{
+text-align:center;
+margin-top:50px;
+margin-bottom:50px;
+font-family: 'Amarante';
+font-size:40px;
+padding-right:30px;
+padding-left:30px;
+}
+
+
+#deneme{
+margin-top:-100px;
+width:100%;
+height:600px;
+background-image: url("milkalmond.jpg");
+background-size: 100% 750px;
+background-repeat: no-repeat;
+}
+
+#eray {
+    padding-right: 15px;
+    padding-left: 15px;
+width: 1280px;
+background: rgba(0, 0, 0, 0.4);
+color:white;
+padding: 0px;
+margin-top:240px;
+font-size:17px;
+text-align: -webkit-auto;
+
+
+}
+
+#services #custom_carousel .controls li a small {
+    display:block; font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#menu {
+font-family: 'Amarante';
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+#custom_carousel .item {
+    height: auto;
+    
+       padding: 10px 0 ;
+    overflow: visible;
+}
+#custom_carousel .controls{
+    overflow-x: visible;
+    overflow-y: visible;
+    padding:0;
+    margin:0;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    }
+#custom_carousel .controls li {
+     display:table-cell;   width: 1%;
+    max-width:90px
+}
+
+#custom_carousel .controls li.active {
+   
+    
+border-top:none;
+}
+
+
+#custom_carousel .controls li{
+   
+    
+
+background: rgba(0, 0, 0, 0.3);
+
+}
+
+#custom_carousel .controls li img{
+   
+    
+
+padding-bottom:15px;
+padding-top:5px;
+
+}
+
+#services #custom_carousel .controls li a:hover{
+   
+    
+
+background: rgba(0, 0, 0, 0.5);
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0.5) !important;
+color:white;
+}
+
+#services #custom_carousel .controls li a:visited{
+background: rgba(0, 0, 0, 0.7);
+text-decoration: none;
+background-color: saddlebrown;
+color:white;
+}
+
+
+
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #fff;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+#menu.fixed-theme{
+    margin-top: 25px;
+    color: black;
+    margin-left: 150px;
+    font-size: 22px;
+}
+#menu.fixed-theme > li{
+    margin-left: 15px;
+    
+}
+
+#brand.fixed-theme{
+width:80px;
+height:120px;
+margin-top:5px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container,
+#brand.fixed-theme,
+#brand,
+#menu.fixed-theme,
+#menu{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+#carousel-example-generic, #carousel-example-generic1{
+
+width:450px;
+position:center;
+height:301px;
+border-style:ridge;
+overflow:hidden;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+margin-top:50px;
+}
+.carousel-indicators{
+bottom:0px;
+}
+.ortakbilgi{
+width: 550px;
+background: rgba(0, 0, 0, 0.4);
+color:white;
+padding: 0px;
+font-size:15px;
+text-align: -webkit-auto;
+margin-top:20px;
+}
+.icerik{
+margin-left:20px;
+}
+.jumbotron {
+color: #FFF;
+border-radius: 0px;
+}
+
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+
+.jumbotron small {
+color: #FFF;
+}
+
+.h1 small {
+font-size: 24px;
+}
+.well{
+background: rgba(0, 0, 0, 0.4);
+color:white;
+}
+h1 {
+ overflow: hidden;
+ text-align: center;
+}
+h1:before,
+h1:after {
+ background-color: #000;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+#hak:before, #hak:after {
+ background-color: #fff;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+h1:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h1:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+.panel-footer {
+
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+  color:white;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#Iletisim, #Servisler {
+  line-height: 2;
+}
+#Iletisim > span, #Servisler > ul > span {
+  font-size: 1.3em;
+}
+#Iletisim p {
+
+  font-size: .9em;
+  line-height: 1.9;
+}
+#Iletisim{
+margin-bottom:-20px;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+#men{
+height:566px;
+}
+
+.sut{
+margin-top:40px;
+margin-left:50px;
+}
+
+.yum{
+margin-top:60px;
+margin-left:100px;
+}
+.pey{
+margin-top:20px;
+
+}
+.sarkut{
+margin-top:60px;
+margin-left:50px;
+
+}
+
+/*************************** Social Media **************************************/
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+ color: #f39c12;
+ }
+
+
+@media (min-width: 351px) and (max-width: 400px){
+
+.yum{
+margin-top:0px;
+margin-left:-4px;
+}
+
+.kur{
+margin-left:8px;
+}
+
+.sut{
+margin-top:0px;
+margin-left:18px;
+}
+.pey{
+margin-top:0px;
+margin-left:25px;
+}
+.sarkut{
+margin-top:0px;
+margin-left:5px;
+
+}
+.ortakbilgi{
+width:300px;
+height:300px;
+margin-left:33px;
+}
+
+#eray{
+margin-top:0px;
+margin-left:10px;
+width:350px;
+height:600px;
+}
+
+.navbar-header .icon-bar{
+background:black;
+}
+.navbar-toggle{
+margin-top: 35px;
+margin-right: 35px;
+border:1px solid;
+}
+
+#brand {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 90px;
+    height: 135px;
+}
+
+#deneme{
+margin-top:-40px;
+background-image: url("milkalmondv.jpg");
+}
+
+
+#menu{
+margin-left: 80px;
+font-size: 23px;
+margin-top:0px;
+}
+
+.navbar-fixed-top {
+        position: relative;
+        top: auto;
+
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+
+.navbar-header{
+margin-top:-100px;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #fff;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+#menu.fixed-theme{
+    margin-top:0px;
+    color: black;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+#brand.fixed-theme{
+width:70px;
+height:105px;
+}
+
+#aboutp{
+padding-left:20px;
+padding-right:20px;
+}
+
+#kiss{
+padding-left:20px;
+}
+
+.asagi{
+display:block;
+}
+
+#men{
+height:auto;
+}
+
+
+.controls{
+margin-top:-20px;
+}
+
+#custom_carousel .controls li{
+display:initial;
+line-height:0;
+}
+
+#carousel-example-generic, #carousel-example-generic1{
+width:300px;
+height:200px;
+}
+
+#partners{
+background-image:url(milkmob.jpg); 
+height: auto;
+}
+
+#harita{
+width:100%; 
+height:400px;
+}
+
+#contact{
+background:url(nuts9.jpg); 
+width:100%; 
+margin:0px; 
+height:auto;
+}
+#services{
+background-image:url(wood8.jpg);
+}
+#brandson{
+margin-left: 105px;
+margin-top: 50px;
+}
+.icerik{
+padding-top:12px;
+}
+
+
+}
+
+@media (max-width: 350px){
+
+.navbar-header .icon-bar{
+background:black;
+}
+.navbar-toggle{
+margin-top: 35px;
+margin-right: 35px;
+border:1px solid;
+}
+
+#brand {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 90px;
+    height: 135px;
+}
+
+#deneme{
+margin-top:-40px;
+background-image: url("milkalmondv.jpg");
+}
+
+#eray{
+margin-top:0px;
+width:320px;
+height:600px;
+}
+#menu{
+margin-left: 80px;
+font-size: 23px;
+margin-top:0px;
+}
+
+.navbar-fixed-top {
+        position: relative;
+        top: auto;
+
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+
+.navbar-header{
+margin-top:-100px;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #fff;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+#menu.fixed-theme{
+    margin-top:0px;
+    color: black;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+#brand.fixed-theme{
+width:70px;
+height:105px;
+}
+
+#aboutp{
+padding-left:5px;
+padding-right:5px;
+}
+
+#kiss{
+padding-left:5px;
+}
+
+.asagi{
+display:block;
+}
+
+#men{
+height:auto;
+}
+
+.yum{
+margin-top:0px;
+margin-left:-10px;
+}
+
+.sut{
+margin-top:0px;
+margin-left:-10px;
+}
+.pey{
+margin-top:0px;
+margin-left:0px;
+}
+.sarkut{
+margin-top:0px;
+margin-left:-10px;
+
+}
+.controls{
+margin-top:-20px;
+}
+
+#custom_carousel .controls li{
+display:initial;
+line-height:0;
+}
+
+#carousel-example-generic, #carousel-example-generic1{
+width:300px;
+height:200px;
+}
+.ortakbilgi{
+width:300px;
+height:300px;
+margin-left:13px;
+}
+
+#partners{
+background-image:url(milkmob.jpg); 
+height: auto;
+}
+
+#harita{
+width:100%; 
+height:350px;
+}
+
+#contact{
+background:url(nuts9.jpg); 
+width:100%; 
+margin:0px; 
+height:auto;
+}
+#services{
+background-image:url(wood8.jpg);
+}
+#brandson{
+margin-left: 80px;
+margin-top: 50px;
+}
+.icerik{
+padding-top:12px;
+}
+
+}
